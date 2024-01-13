@@ -19,11 +19,10 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Oblivious Credential State"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-steele-spice-oblivious-credential-state-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
