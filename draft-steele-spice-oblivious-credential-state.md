@@ -39,6 +39,8 @@ normative:
 informative:
   RFC7519: JWT
   RFC8932:
+  RFC2560: OCSP
+  RFC5755: ATTR-CERT
   I-D.draft-mcmillion-keytrans-architecture: KT-ARCH
   I-D.draft-ietf-oauth-status-list: OAUTH-STATUS-LIST
   ZKA:
@@ -170,7 +172,15 @@ However, other documents describe this process in detail.
 
 {{-OAUTH-STATUS-LIST}} provides guidance on processing resources of the content type `application/cwt`, and `application/jwt`.
 
-## Techniques for Herd Privacy
+## Techniques
+
+### CRL Distribution Points
+
+{{-ATTR-CERT}} described a mechanism for verifiers to check the revocation status of attribute certificates.
+
+### Online Certificate Status Protocol
+
+{{-OCSP}} described a protocol useful in determining the current status of a digital certificate without requiring CRLs.
 
 ### Bitmaps
 
